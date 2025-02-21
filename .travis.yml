@@ -1,0 +1,8 @@
+language: bash
+
+jobs:
+  include:
+    - name: First Job
+      script:
+        - echo "Hello World!"
+        - echo "Done - bye!"
